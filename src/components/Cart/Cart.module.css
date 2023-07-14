@@ -1,0 +1,63 @@
+.items {
+  padding: 0px 20px 20px 20px;
+}
+
+.items .item_group {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.buttons .btn_style {
+  background-color: var(--light);
+  border: 1px solid #009fb4;
+  color: #009fb4;
+  transition: 0.3s;
+}
+
+.buttons .btn_style2 {
+  border: 1px solid #009fb4;
+}
+
+.buttons .btn_style:hover {
+  background-color: #00acc3;
+  color: var(--light);
+}
+
+.amount {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.voucher {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.voucher label {
+  font-weight: 600;
+}
+
+.voucher input{
+  margin-left: 385px;
+  border: 1px solid #009fb4;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.amount p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 576px) {
+  .amount p {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
